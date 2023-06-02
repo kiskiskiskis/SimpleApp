@@ -20,23 +20,23 @@
             <ColumnDefinition />
             <ColumnDefinition />
         </Grid.ColumnDefinitions>
-        <TextBlock Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Grid.ColumnSpan="4" x:Name="textLabel"/>
-        <Button Grid.Row="1" Grid.Column="0">1</Button>
-        <Button Grid.Row="2" Grid.Column="0">4</Button>
-        <Button Grid.Row="3" Grid.Column="0">7</Button>
-        <Button Grid.Row="4" Grid.Column="0">0</Button>
-        <Button Grid.Row="1" Grid.Column="1">2</Button>
-        <Button Grid.Row="2" Grid.Column="1">5</Button>
-        <Button Grid.Row="3" Grid.Column="1">8</Button>
-        <Button Grid.Row="1" Grid.Column="2">3</Button>
-        <Button Grid.Row="2" Grid.Column="2">6</Button>
-        <Button Grid.Row="3" Grid.Column="2">9</Button>
-        <Button Grid.Row="1" Grid.Column="4">*</Button>
-        <Button Grid.Row="2" Grid.Column="4">+</Button>
-        <Button Grid.Row="3" Grid.Column="4">-</Button>
-        <Button Grid.Row="4" Grid.Column="4">=</Button>
-        <Button Grid.Row="4" Grid.Column="1">/</Button>
-        <Button Grid.Row="4" Grid.Column="2">AC</Button>
+        <TextBlock Grid.Row="0" Grid.Column="0" Margin="0,0,0,0" Grid.ColumnSpan="4" x:Name="textLabel" Background="#FFF7F7F7" Foreground="Black"/>
+        <Button Grid.Row="1" Grid.Column="0" FontSize="48" FontFamily="Bahnschrift" Cursor="Hand">1</Button>
+        <Button Grid.Row="2" Grid.Column="0" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">4</Button>
+        <Button Grid.Row="3" Grid.Column="0" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">7</Button>
+        <Button Grid.Row="4" Grid.Column="0" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">0</Button>
+        <Button Grid.Row="1" Grid.Column="1" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">2</Button>
+        <Button Grid.Row="2" Grid.Column="1" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">5</Button>
+        <Button Grid.Row="3" Grid.Column="1" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">8</Button>
+        <Button Grid.Row="1" Grid.Column="2" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">3</Button>
+        <Button Grid.Row="2" Grid.Column="2" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">6</Button>
+        <Button Grid.Row="3" Grid.Column="2" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">9</Button>
+        <Button Grid.Row="1" Grid.Column="4" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">*</Button>
+        <Button Grid.Row="2" Grid.Column="4" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">+</Button>
+        <Button Grid.Row="3" Grid.Column="4" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">-</Button>
+        <Button Grid.Row="4" Grid.Column="4" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">=</Button>
+        <Button Grid.Row="4" Grid.Column="1" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">/</Button>
+        <Button Grid.Row="4" Grid.Column="2" FontFamily="Bahnschrift" FontSize="48" Cursor="Hand">AC</Button>
 
 
     </Grid>

@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -23,6 +24,28 @@ namespace SimpleApp
         public MainWindow()
         {
             InitializeComponent();
+
+            foreach (UIElement el in MainRoot.Children)
+            {
+                if (el is Button)
+                {
+                    ((Button)el).Click += Button_Click;
+                }
+            }
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            string str = (string)((Button)e.OriginalSource).Content;
+            if (str == "AC")
+                textLabel.Text = string.Empty;
+            else if (str == "=")
+            {
+                string value = new DataTable().Compute(textLabel.Text, null).ToString();
+                textLabel.Text = value;
+            }
+            else textLabel.Text += str;
+            
         }
     }
 }
